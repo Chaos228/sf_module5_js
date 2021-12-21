@@ -1,0 +1,10 @@
+let map = new Map();
+
+map.set(11, "red");
+map.set(22, "green");
+map.set(33, "blue");
+ 
+
+map.forEach((value, key, map) => {
+  console.log("Ключ - " + key +  " Значение - " + value);
+});
